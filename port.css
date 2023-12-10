@@ -6,9 +6,7 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    
 }
-
 :root{
     --bg-color: #ffffff;
     --text-color: #000;
@@ -16,16 +14,12 @@
     --big-font: 7rem;
     --p-font: 1.1rem;
 }
-
 body{
     background: var(--bg-color);
     color: var(--text-color);
     overflow-x: hidden;
-    /* background-image: url("pngtree-red-and-blue-glowing-smoke-background-picture-image_1219688.jpg"); */
-    background-size: cover;
-    
+    background-size: cover;   
 }
-
 header{
     top: 0;
     right: 0;
@@ -37,24 +31,18 @@ header{
     padding: 32px 15%;
     background:  #f1ffff;
     transition: all  ease .45s;
-
 }
-
-
 .logo{
     color: var(--text-color);
     font-size: 32px;
     font-weight: 500;
 }
-
 .logo span{
     color: var(--main-color);
 }
-
 .navbar{
     display: flex;
 }
-
 .navbar a{
     color: var(--text-color);
     font-weight: 500;
@@ -62,13 +50,9 @@ header{
     margin: 0 10px;
     transition: all ease.45s;
 }
-
 .navbar :hover{
     color: var(--main-color);
 }
-
-
-
 .menu-btn{
     
     background: linear-gradient(130.08 deg, #383528, #191919 100%);
@@ -78,25 +62,20 @@ header{
     display: flex;
     align-items: center;
     cursor: pointer;
-    padding: 10px 20px;
-    
+    padding: 10px 20px; 
 }
-
 .menu-btn:hover{
     transition: all 0.6s ease-in-out;
     transform: translateY(-10px);
 }
-
 #menu-icon{
     font-size: 25px;
     margin-left: 10px;
     z-index: 6;
 }
-
 section{
     padding: 0 15%;
 }
-
 .home{
     position: relative;
     width: 100%;
@@ -106,19 +85,16 @@ section{
     justify-content: space-between;
     gap: 30px;
 }
-
 .home-img{
     width: 350px;
     height: 350px;
 }
-
 .home-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
      animation: float 2s ease-in-out infinite;
 }
-
 .home-text span{
     padding: 5px 25px;
     background: linear-gradient(130.08 deg, #383528, #191919 100%);
@@ -128,14 +104,11 @@ section{
     color: var(--text-color);
     font-weight: 600;
     font-size: 17px;
-
 }
-
 .home-text h1{
     font-size: var(--big-font);
     margin: 10px 0;
 }
-
 .home-text p{
     font-size: var(--p-font);
     font-weight: 500;
@@ -143,7 +116,6 @@ section{
     margin-bottom: 30px;
     line-height: 30px;
 }
-
 .btn{
     display: inline-block;
     padding: 14px 34px;
@@ -153,7 +125,6 @@ section{
     color: var(--text-color);
     transition: all 0.6s ease-in-out;
 }
-
 .btn2
 {
     display: inline-block;
@@ -164,43 +135,30 @@ section{
     color: var(--text-color);
     transition: all 0.6s ease-in-out;
 }
-
-
 .btn:hover{
     transform: translateY(-10px);
     background: transparent;
     color: var(--main-color);
 }
-
 .btn2:hover{
     transform: translateY(-10px);
     background: transparent;
     color: var(--text-color)
 }
-
 .share{
     display: inline-block;
     position: absolute;
     left: 15%;
     display: flex;
     align-items: center;
-    margin-top: -80px;
-    
-
-
-    
+    margin-top: -80px;   
 }
-
 .share p{
     color: var(--text-color);
     display: inline-block;
     margin-right: 8px;
     font-size: 25px;
-    
-
-
 }
-
 .social i{
     display: inline-flex;
     align-items: center;
@@ -208,14 +166,13 @@ section{
     height: 32px;
     width: 32px;
     color: var(--main-color);
- background: linear-gradient(130.08 deg, #383528, #191919 100%);
+     background: linear-gradient(130.08 deg, #383528, #191919 100%);
     box-shadow: 0px 10px 20px #00000070;
     border: 1px solid #3b3b3b;
     border-radius: 50px;
     font-size: 20px;
     margin-inline: 10px;   
 }
-
 @media (max-width: 1850px){ 
     header{ 
         padding: 15px 8%; 
@@ -230,7 +187,6 @@ section{
         transition: .2s; 
     } 
 } 
- 
 @media (max-width: 1370px){ 
     header{ 
         padding: 15px 4%; 
@@ -250,7 +206,6 @@ section{
         transition: .2s; 
     } 
 } 
- 
 @media (max-width: 1020px){ 
     .navbar a{ 
         margin: 0 15px; 
@@ -291,7 +246,6 @@ section{
         height: auto; 
     } 
 } 
- 
 @media (max-width: 950px){ 
     .navbar{ 
         position: absolute; 
@@ -319,7 +273,6 @@ section{
         left: 0; 
     } 
 } 
- 
 @media (max-width: 500px){ 
     :root{ 
         --big-font: 4rem; 
@@ -343,23 +296,10 @@ section{
                 transform: translateX(-10px);
             }           
  }
-
-
-
-
- 
-
 /*-ABOUT SECTION-*/
-
-
-
-
-
-
  .about{
     background: transparent;
  }
-
  .heading_about{
     top: 0;
     right: 0;
@@ -372,17 +312,13 @@ section{
     background:  #f1ffff;
     transition: all  ease .45s;
  }
-
- 
  .about h1{
     padding: 15px 15px 15px 15px;
     padding-left: 45px;
     background: transparent #f1ffff;
     margin-top: 60px;
     margin-bottom: 10px;
-
  }
-
  .pic{
     margin-top: 5%;
     padding-left: 3.5%;
@@ -390,28 +326,21 @@ section{
     width: 350px;
     height: 300px;
  }
-
  .pic img{
     width: 100%;
     height: 100%;
     object-fit: cover;
  }
-
  .name_sec{
     padding-left: 23%;
  }
-
-
  .name_sec span{
     color: var(--main-color);
     font-size: var(--big-font);
  }
-
 #n2{
     color: var(--text-color);
 }
- 
-
 .about_sec {
     font-size: var(--p-font);
     font-weight: 500;
@@ -419,71 +348,56 @@ section{
     margin-bottom: 30px;
     line-height: 30px;
     text-align: justify;
-    width: 900px;
-    
+    width: 900px;   
 }
 .align{
     display: flex;
     align-items: center;
-    margin-top: -55px;
-    
+    margin-top: -55px;   
 }
 .education{
     padding-left: 420px;
     margin-top: 0px;
-
 }
-
 .clg{
     margin-left: -1%;
-    padding: 10px 10px 0px 10px;  
-     
+    padding: 10px 10px 0px 10px;      
 }
 
 .clg p{
     margin: 5px 0px 5px 0px;
     line-height: 25px;
 }
-
 .twlth{
     margin-left: -1%;
     padding: 10px 10px 10px 10px;   
    }
-   
    .twlth p{
        margin: 5px 0px 5px 0px;
        line-height: 25px;
    }
-
    .tnth{
     margin-left: -1%;
     padding: 10px 10px 10px 10px;   
-   }
-   
+   } 
    .tnth p{
        margin: 5px 0px 5px 0px;
        line-height: 25px;
    }
-
    .skills {
     margin: 60px auto;
     margin-top: -50px;
     padding: 20px;
     border: 10px;
     width: 500px;
-
    }
-
    .skills li{
     margin: 10px 0px 10px 0px;
    }
-
    .skills h1{
     margin-top: 100px;
-    line-height: 30px;
-    
+    line-height: 30px;    
    }
-
    .bar{
     background: #d9e9e9;
     display: block;
@@ -491,60 +405,33 @@ section{
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    
-   }
-
-   
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);   
+   }  
    .bar span{
     height: 20px;
     float: left;
     background: linear-gradient(to right,#00fff6,#a7d3d7);
    }
-
    .html{
     width: 93%;
     animation: html 3%;
    }
-
    .css{
     width: 90%;
     animation: css 3%;
    }
-
    .javascript{
     width: 78%;
     animation: jvascript 3%;
    }
-
    .sql{
     width: 80%;
     animation: sql 3%;
    }
-
    .java{
     width: 76%;
     animation: java 3%;
-   }
-    
-
-
-
-   /*SERVICES SECTION*/
-
-   /* .services_total{ */
-    /* background-image: url("bgd2.jpg"); */
-    /* background-size: cover; */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    
-   /* } */
-
-   /* .services{ */
-    /* border-bottom: 1px solid #3b3b3b; */
-   /* } */
-
-
+   }  
    .heading_services{
     top: 0;
     right: 0;
@@ -557,7 +444,6 @@ section{
     background:  #f1ffff;
     transition: all  ease .45s;
  }
-
      .what h2{
         text-align: center;
         width: 100%;
@@ -565,7 +451,6 @@ section{
         font-size: 40px;
         letter-spacing: 10px;
      }
-    
      .sec1{
         z-index: 999;
         padding: 15px;
@@ -578,25 +463,21 @@ section{
         margin-left: 30px;
         transition: all 0.6s ease-in-out;
      }
-
      .sec1:hover{
         transform: translateX(10px);
         background: transparent;
         background-image: linear-gradient(to right bottom, #2df4ea, #5ef4ed, #7df5ef, #96f5f1, #acf5f2);
      }
-
      .sec1 i{
       color: rgb(0, 26, 255); 
       font-size: 40px;
       padding-left: 15px;
      }
-
      .sec1 h4{
         padding-left: 15px;
         margin-top: 30px;
         margin-bottom: 15px;
      }
-
      .sec1 p{
         padding-left: 15px;
         padding-right: 15px;
@@ -605,7 +486,6 @@ section{
         text-align: justify;
         line-height: 28px;
      }
-
      .sec2{
         z-index: 999;
         padding: 15px;
@@ -618,25 +498,21 @@ section{
         margin-left: 100px;
         transition: all 0.6s ease-in-out;
      }
-
      .sec2:hover{
         transform: translateY(-10px);
         background: transparent;
         background-image: linear-gradient(to right bottom, #2df4ea, #5ef4ed, #7df5ef, #96f5f1, #acf5f2);
      }
-
      .sec2 i{
         color: #ff0000; 
         font-size: 40px;
         padding-left: 15px;
        }
-
        .sec2 h4{
         padding-left: 15px;
         margin-top: 30px;
         margin-bottom: 15px;
      }
-
      .sec2 p{
         padding-left: 15px;
         padding-right: 15px;
@@ -645,12 +521,10 @@ section{
         text-align: justify;
         line-height: 28px;
      }
-
      .align1{
         display: flex;
         margin-bottom: 10px;
      }
-
      .sec3{
         z-index: 999;
         padding: 15px;
@@ -664,25 +538,21 @@ section{
         margin-right: 20px;
         transition: all 0.6s ease-in-out;
      }
-
      .sec3:hover{
         transform: translateX(-10px);
         background: transparent;
         background-image: linear-gradient(to right bottom, #2df4ea, #5ef4ed, #7df5ef, #96f5f1, #acf5f2);
      }
-
      .sec3 i{
         color: #ff00c8; 
         font-size: 40px;
         padding-left: 15px;
        }
-
        .sec3 h4{
         padding-left: 15px;
         margin-top: 30px;
         margin-bottom: 15px;
      }
-
      .sec3 p{
         padding-left: 15px;
         padding-right: 15px;
@@ -691,32 +561,19 @@ section{
         text-align: justify;
         line-height: 28px;
      }
-
      .align2{
         display: flex;
      }
-
-
-
-
      /* CONTACT SECTION */
-
      .contact_total{
         height: 100vh;
-        /* background-image: url("bgd1.avif"); */
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
-        
+        background-repeat: no-repeat;    
      }
-          
-
      .contact{
-        margin-top: 100px;
-        
+        margin-top: 100px;  
      }
-
-
      .heading_contact{
         top: 0;
         right: 0;
@@ -728,48 +585,36 @@ section{
         padding: 20px 5px 20px 40px;
         background: #f1ffff;
         transition: all  ease .45s;
-        /* border-bottom: 1px solid #3b3b3b; */
      }
-
      .con_intro{
-        text-align: center;
-        
+        text-align: center;  
      }
-
      .con_intro h1{
         margin: 15px 0 15px 0;
      }
-
      .con_intro p{
         width: 650px;
         margin-left: 370px;
         text-align: justify;
      }
-
      .con_icons1{
         position: absolute;
         left: 140px;
         margin-top: 90px;
-        line-height: 25px;
-       
+        line-height: 25px; 
      }
-
-    
-
      .con_icons2{
         position: absolute;
         left: 140px;
         margin-top: 200px;
         line-height: 25px;
      }
-
      .con_icons3{
         position: absolute;
         left: 140px;
         margin-top: 280px;
         line-height: 25px;
      }
-
      .form{
         position: absolute ;
         left: 800px;
@@ -779,59 +624,35 @@ section{
         height: 300px;
         padding: 30px;
         margin-right: 40px;
-        /* background: #f5f1f1; */
      }
-
-
      .form h2{
         padding-left: 9px;
-        margin-bottom: 10px;
-        
+        margin-bottom: 10px; 
      }
-
      .form .inputbox{
         padding: 10px;
      }
-
      .form .inputbox input,
      .form .inputbox textarea{
         border: none;
         border-bottom: 1px solid #3b3b3b;
-        /* background: #f5f1f1; */
         outline: none;
         width: 210px;
      }
-
      .form .inputbox input[type="submit"]{
         width: 50px;
         height: 20px;
         border-top: 1px solid #3b3b3b;
         border-left: 1px solid #3b3b3b;
-        border-right: 1px solid #3b3b3b;
-        
+        border-right: 1px solid #3b3b3b; 
      }
-
      .form .inputbox input[type="submit"]:hover{
         background-image: linear-gradient(to right bottom, #2df4ea, #5ef4ed, #7df5ef, #96f5f1, #acf5f2);
      }
-
-
-
      /*PORTFOLIO SECTION*/
-
     .portfolio_total{ 
-    /* background-image: url("bgd2.jpg"); */
-    /* background-size: cover; */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
     margin-top: 70px;
     } 
-
-   /* .services{ */
-    /* border-bottom: 1px solid #3b3b3b; */
-   /* } */
-
-
    .heading_portfolio{
     top: 0;
     right: 0;
@@ -844,7 +665,6 @@ section{
     background:  #f1ffff;
     transition: all  ease .45s;
  }
-
      .what_port h2{
         margin-left: 40px;
         width: 100%;
@@ -852,7 +672,6 @@ section{
         font-size: 40px;
         letter-spacing: 10px;
      }
-    
      .sec11{
         z-index: 999;
         padding: 15px;
@@ -866,7 +685,6 @@ section{
         margin-left: 30px;
         transition: all 0.6s ease-in-out;
      }
-
      .sec11 img{
         object-fit: fill;
         padding: 5px;
@@ -875,14 +693,11 @@ section{
         margin-left: -15px;
         margin-top: -15px;
      }
-
      .sec11:hover{
         transform: translateY(-10px);
         background: transparent;
         background-image: linear-gradient(to right bottom, #2df4ea, #5ef4ed, #7df5ef, #96f5f1, #acf5f2);
      }
-
-
      .sec22{
         z-index: 999;
         padding: 15px;
@@ -895,18 +710,15 @@ section{
         margin-left: 100px;
         transition: all 0.6s ease-in-out;
      }
-
      .sec22:hover{
         transform: translateY(-10px);
         background: transparent;
         background-image: linear-gradient(to right bottom, #2df4ea, #5ef4ed, #7df5ef, #96f5f1, #acf5f2);
      }
-
      .align11{
         display: flex;
         margin-bottom: 10px;
      }
-
      .align22{
         display: flex;
      }
