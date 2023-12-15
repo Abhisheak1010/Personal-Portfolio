@@ -325,28 +325,20 @@
             <input type="submit" id="btnsubmit" value="Send" style="width: 100px; padding-left: 0px;">
       </div>
       </div>
-    
-      <script>
-        function sendForm(event) {
-          var form = document.getElementById("form")
-          const fullName = document.querySelector('input[placeholder="full name"]');
-          const email = document.querySelector('input[placeholder="your mail"]');
-          const message = document.querySelector('textarea[placeholder="your message..."]');
-    
-          if (fullName.value.trim() === '' && email.value.trim() === '' && message.value.trim() === '') {
-            alert("Please fill in at least one field.");
-            event.preventDefault();
-          } else {
-            alert("Form submitted successfully");
-            event.preventDefault(); 
-          }
-        }
+    <script>
+      function sendForm(event) {
+        // Prevent default form submission
+        event.preventDefault();
+      
+        // Display alert message
+        alert('Message sent successfully!');
+      
+        // Clear form fields after closing alert
+        document.querySelector('#form form').reset();
+      }
+      </script>
 
-        function clear()
-        {
-          document.getElementById("form").reset();
-        }
-
+        <script>
         document.addEventListener('mousemove', (e) => {
       const customPointer = document.getElementById('custom-pointer');
       customPointer.style.left = e.pageX - 10 + 'px';
