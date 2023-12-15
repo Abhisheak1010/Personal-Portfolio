@@ -4,22 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="port.css">
-    <title>Animated Portfolio Website</title>
-
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="indeeex.css">
+    <title>Animated Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <!--home section-->
-    <header>
+
+     <!--home section-->
+     <header>
         <a href="#" class="logo"><span>WEL</span>COME</a>
         
             <ul class="navbar">
-                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" style="color: #e100ff">Home</a></li>
                 <li><a href="#ab">About</a></li>
                 <li><a href="#ser">Services</a></li>
                 <li><a href="#por">Portfolio</a></li>
@@ -33,21 +30,29 @@
             </div>
     </header>
 
+    <div id="custom-pointer"></div>
 
+    <div class="video-container">
+        <video id="backgroundVideo" autoplay loop muted playsinline>
+            <source src="videos/videoplayback (3).mp4" type="video/mp4">
+        </video>
+    </div>
+
+    
     <section class="home">
         <div class="home-text">
             <span>Software Developer</span>
-            <h1>ABHISHEAK</h1>
-            <p>Hello! I'm Abhisheak, a passionate and detail-oriented web developer dedicated to crafting engaging and user-centric digital experiences, with a commitment to staying updated with the latest industry trends.</p>
+            <h1 class="text"></h1>
+            <p style="font-size: 23px;">Hello! I'm Abhisheak, a passionate and detail-oriented web developer dedicated to crafting engaging and user-centric digital experiences, with a commitment to staying updated with the latest industry trends.</p>
             <div class="main-btn">
                 <a href="#" class="btn">Download Resume</a>
                 <a href="#" class="btn2">Hire Me</a>
             </div>
 
         </div>
+
         <div class="home-img">
             <img src="images/eren.png">
-
         </div>
 
     </section>
@@ -60,302 +65,373 @@
             <a href="mailto:venomslayer1010@gmail.com"><i class='bx bxl-gmail bx-burst' ></i></a>
             <a href="https://t.me/realabhi1010"><i class='bx bxl-telegram bx-burst' ></i></a>
         </div>
-
     </div>
 
-
-
     <!-- END OF HOME SECTION -->
+       <!--About section-->
+<div class="about" id="ab">
+  <div class="heading_about">
+   <a href="#ab" class="logo"><span>ABOUT</span> ME</a>
+ 
+   <ul class="navbar">
+       <li><a href="#">Home</a></li>
+       <li><a href="#ab" style="color: #e100ff">About</a></li>
+       <li><a href="#ser">Services</a></li>
+       <li><a href="#por">Portfolio</a></li>
+       
+       <li><a href="#con">Contact</a></li>
+   </ul>
+ </div> 
+ <div class="pic">
+     <img src="images/eren.png">
+ <div class="name_sec">
+     <h2>
+         <span id="n1">ABHI</span>
+         <span id="n2">SHEAK</span>
+     </h2>
+     
+  <div class="about_sec">
+ <p style="font-size: 20px;">Hello! I'm Abhisheak, a detail-oriented web and software developer with expertise in web development, Java programming, and database management. My commitment to staying updated with industry trends ensures a creative and technically proficient approach. Experienced in successful collaborations and problem-solving, I embark on a journey of continuous excellence. Looking ahead, I aspire to contribute innovative solutions, enhancing user experiences beyond coding.</p>
+      </div>
 
+     </div>    
+</div>
+<div class="skillbox-main">
+<div class="skillbox1">
+  <i id="icon1" class='bx bxl-html5' style="color: black;"></i>
+  <i id="icon2" class='bx bxl-css3'></i>
+  <i id="icon3" class='bx bxl-javascript' style="color: black;"></i>
+</div>
+<div class="skillbox1">
+  <i id="icon4" class='bx bxl-java'></i>  
+  <i id="icon5" class='bx bxl-github' undefined  style="color: black;"></i>
+  <i id="icon6" class='bx bxs-data'></i></div>
+<div class="skillbox-main2">
+<div class="skillbox1">
+  <i id="icon7"  style="background-color:#ff00ff;;"><p style="font-size: 40px;">SKILLS</p></i>
+</div>
 
+<div class="content-title">
+  <h2>My Skills</h2>
+</div>
 
+<div class="content1">
+  <h2>HTML</h2>
+  <h2>HTML</h2>
+</div>
 
-     <!--About section-->
+<div class="content2">
+  <h2>CSS</h2>
+  <h2>CSS</h2>
+</div>
 
+<div class="content3">
+  <h2>JAVASCRIPT</h2>
+  <h2>JAVASCRIPT</h2>
+</div>
+</div>
+</div>
+<div class="skillbox-main3">
+<div class="content4">
+  <h2>JAVA</h2>
+  <h2>JAVA</h2>
+</div>
 
+<div class="content5">
+  <h2>GIT</h2>
+  <h2>GIT</h2>
+</div>
 
-
-     <div class="about" id="ab">
-         <div class="heading_about">
-          <a href="#ab" class="logo"><span>ABOUT</span> ME</a>
-        
+<div class="content6">
+  <h2>MYSQL</h2>
+  <h2>MYSQL</h2>
+</div>
+</div>
+</div>
+<!-- END OF ABOUT SECTION -->
+          <!--SERVICES SECTION-->
+       <div class="services_total">
+      <div class="services" id="ser">
+        <div class="heading_services">
+          <a href="#ser" class="logo"><span>SER</span>VICES</a>
+            
           <ul class="navbar">
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#ab" class="active1">About</a></li>
-              <li><a href="#ser">Services</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#ab">About</a></li>
+              <li><a href="#ser" style="color: #e100ff">Services</a></li>
               <li><a href="#por">Portfolio</a></li>
               
               <li><a href="#con">Contact</a></li>
           </ul>
-        </div> 
-        <div class="pic">
-            <img src="images/eren.png">
-        <div class="name_sec">
-            <h2>
-                <span id="n1">ABHI</span>
-                <span id="n2">SHEAK</span>
-            </h2>
-            
-         <div class="about_sec">
-        <p>Hello! I'm Abhisheak, a detail-oriented web and software developer with expertise in web development, Java programming, and database management. My commitment to staying updated with industry trends ensures a creative and technically proficient approach. Experienced in successful collaborations and problem-solving, I embark on a journey of continuous excellence. Looking ahead, I aspire to contribute innovative solutions, enhancing user experiences beyond coding.</p>
-             </div>
-
+        </div>
+      </div>
+    
+      <div class="what">
+        <h2>What do I do?</h2>
+        </div>
+        <div class="main-service-total-box">
+        <div class="service-total-box">
+          <div class="service-box1">
+            <img src="images/peakpx (1).jpg">
+            <div class="img-box1">
+              <h1 style="color: transparent;">WEB DESIGNER</h1>
+              <p>I enhance online presence through expert web design and development, creating visually captivating interfaces and seamless user experiences. Specializing in innovative, client-focused collaboration, I tailor each project to uniquely reflect brand identities for engaging and compelling websites.</p>
             </div>
-               
-    </div>
-<div class="align">
-    <div class="education" id="edu">
-        <h1 style="background-color: white; padding: 10px; margin-left: -14px; margin-top: 1px;">EDUCATION</h1>
-      <div class="clg">
-        <h4>B.E CSE</h4>
-        <p>Imayam College of Engineering</p>
-        <p>CGPA: 85%</p>
-      </div>
-      <div class="twlth">
-        <h4>HSC</h4>
-        <p>Rasi Matric Hr. Sec. School</p>
-        <p>Pecentage of marks:81%</p>
-      </div>
-      <div class="tnth">
-        <h4>SSLC</h4>
-        <p>Rasi Matric Hr. Sec. School</p>
-        <p>Pecentage of marks:95%</p>
-      </div>
-    </div>
-      <div class="skills">
-        <h1 style="background-color: white;">MY SKILLS</h1>
-        <li><h3>HTML</h3></li>
-          <span class="bar">
-            <span class="html"></span>
-          </span>
+            <div class="webd"><h1>WEB DESIGNER</h1></div>
+          </div>
 
-          <li><h3>CSS</h3></li>
-          <span class="bar">
-            <span class="css"></span>
-          </span>
 
-          <li><h3>JAVASCRIPT</h3></li>
-          <span class="bar">
-            <span class="javascript"></span>
-          </span>
+          <div class="service-box1">
+            <img src="images/Screenshot 2023-12-15 100913.png">
+            <div class="img-box1">
+              <h1 style="color: transparent;">WEB DEVELOPER</h1>
+              <p>Crafting digital experiences with expertise in HTML, CSS, and JavaScript. I specialize in creating responsive, user-friendly websites, ensuring seamless navigation and optimal performance. Passionate about innovative solutions, I bring creativity to every web development project.</p>
+            </div>
+            <div class="webd"><h1>WEB DEVELOPER</h1></div>
+          </div>
+        </div>
+    
+          <!-- ROW 2  -->
+        <div class="service-total-box">
+          <div class="service-box1">
+            <img src="images/Screenshot 2023-12-15 101645.png">
+            <div class="img-box1">
+              <h1 style="color: transparent;">JAVA DEVELOPER</h1>
+              <p>With expertise in Java programming, I specialize in developing robust and efficient software solutions, emphasizing scalability. My dedication to high-performance system design ensures innovative and reliable outcomes. Let's collaborate to elevate your projects through cutting-edge software development!</p>
+            </div>
+            <div class="webd"><h1>JAVA DEVELOPER</h1></div>
+          </div>
 
-          <li><h3>JAVA</h3></li>
-          <span class="bar">
-            <span class="sql"></span>
-          </span>
 
-          <li><h3>MYSQL</h3></li>
-          <span class="bar">
-            <span class="java"></span>
-          </span>
-
-      </div>
-</div>
+          <div class="service-box1">
+            <img src="images/Screenshot 2023-12-15 102030.png">
+            <div class="img-box1">
+              <h1 style="color: transparent;">SQL DEVELOPER</h1>
+              <p>I am adept in MySQL, skillfully designing organized and efficient database structures for seamless operations. Whether handling basic queries or comprehensive database management, I simplify the intricacies of SQL. Let's collaboratively create functional and user-friendly data solutions.</p>
+            </div>
+            <div class="webd"><h1>SQL DEVELOPER</h1></div>
+          </div>
+        </div>
+        </div>
      </div>
+    
+    <!-- END OF SERVICES SECTION -->
+    
+    
+    
+    <!--PORTFOLIO SECTION-->
+    
+    
+    <div class="portfolio_total">
+      <div class="portfolio" id="por">
+        <div class="heading_portfolio">
+          <a href="#por" class="logo"><span>PORT</span>FOLIO</a>
+            
+          <ul class="navbar">
+              <li><a href="#">Home</a></li>
+              <li><a href="#ab">About</a></li>
+              <li><a href="#ser">Services</a></li>
+              <li><a href="#por" style="color: #e100ff">Portfolio</a></li>
+              <li><a href="#con">Contact</a></li>
+          </ul>
+        </div>
       </div>
+    
+      <div class="what_port">
+        <h2>My works</h2>
+        </div>
+        <section id="port-video-part">
+            <video id="slider" autoplay muted loop>
+              <source src="videos/nature1.mp4">
+            </video>
+            <ul class="navigation">
+              <li onclick="videoUrl('videos/nature1.mp4')"><img src="images/thumbnail1.png"></li>
+              <li onclick="videoUrl('videos/nature2.mp4')"><img src="images/thumbnail2.png"></li>
+              <li onclick="videoUrl('videos/nature3.mp4')"><img src="images/thumbnail3.png"></li>
+              <li onclick="videoUrl('videos/nature4.mp4')"><img src="images/thumbnail4.png"></li>
+              </ul>
+          </section>
+          <script>
+          function videoUrl(fun1)
+          {
+            document.getElementById("slider").src = fun1;
+          }
+        </script>
 
-      <!-- END OF ABOUT SECTION -->
-      
 
 
+    </div>
+  
+    
+    <!-- END OF PORTFOLIO SECTION -->
+    
+    
+    
+    
+    <!-- CONTACT SECTION -->
+    
+    
+    <div class="contact_total">
+    <div class="contact" id="con">
+      <div class="heading_contact">
+          <a href="#con" class="logo"><span>CON</span>TACT</a>
+          <ul class="navbar">
+              <li><a href="#">Home</a></li>
+              <li><a href="#ab">About</a></li>
+              <li><a href="#ser">Services</a></li>
+              <li><a href="#por">Portfolio</a></li>
+              <li><a href="#con" style="color: #e100ff">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+    
+    <div class="con_intro">
+      <h1>CONTACT ME</h1>
+      <p style="font-size: 20px;">Feel free to reach out! I'm available for collaborations, consultations, and coffee chats. Drop me a message, and let's turn your ideas into digital reality! Your thoughts matter, and I'm excited to hear from you.</p>
+    </div>
+    
+    <div class="con_icons1">
+      <p style="font-weight: 550;"> <i class='bx bxs-edit-location'></i> &nbsp;ADDRESS</p>
+      <p>92 Valley View Avenue <br>
+          New York, NY 10032</p>
+    </div>
+    
+    <div class="con_icons2">
+      <p style="font-weight: 550;"> <i class='bx bxs-phone-call'></i> &nbsp;CONTACT </p>
+      <p>9876543210</p>
+    </div>
+    
+    <div class="con_icons3">
+      <p style="font-weight: 550;"> <i class='bx bxl-gmail'></i> &nbsp;MAIL</p>
+      <p>bsabhi@gmail.com</p>
+    </div>
+  
+      <div class="form" id="form">
+        <form onsubmit="sendForm(event)">
+          <h2>Send Message</h2>
+          <div class="inputbox">
+            <input type="text" placeholder="Full Name" minlength="3" maxlength="30" required>
+          </div>
+    
+          <div class="inputbox">
+            <input type="text" placeholder="Your Mail" required>
+          </div>
+    
+          <div class="inputbox">
+            <textarea placeholder="Your Message..." required style="height: 59px;"></textarea>
+          </div>
+    
+          <div class="inputbox">
+            <input type="submit" id="btnsubmit" value="Send" style="width: 100px; padding-left: 0px;">
+      </div>
+      </div>
+    
+      <script>
+        function sendForm(event) {
+          var form = document.getElementById("form")
+          const fullName = document.querySelector('input[placeholder="full name"]');
+          const email = document.querySelector('input[placeholder="your mail"]');
+          const message = document.querySelector('textarea[placeholder="your message..."]');
+    
+          if (fullName.value.trim() === '' && email.value.trim() === '' && message.value.trim() === '') {
+            alert("Please fill in at least one field.");
+            event.preventDefault();
+          } else {
+            alert("Form submitted successfully");
+            event.preventDefault(); 
+          }
+        }
 
-      <!--SERVICES SECTION-->
+        function clear()
+        {
+          document.getElementById("form").reset();
+        }
 
+        document.addEventListener('mousemove', (e) => {
+      const customPointer = document.getElementById('custom-pointer');
+      customPointer.style.left = e.pageX - 10 + 'px';
+      customPointer.style.top = e.pageY - 10 + 'px';
+    });
+      </script>
 
-   <div class="services_total">
-  <div class="services" id="ser">
-    <div class="heading_services">
-      <a href="#ser" class="logo"><span>SER</span>VICES</a>
-        
-      <ul class="navbar">
-          <li><a href="#">Home</a></li>
-          <li><a href="#ab" class="active">About</a></li>
-          <li><a href="#ser">Services</a></li>
-          <li><a href="#por">Portfolio</a></li>
+      <script>
+        class TextScramble {
+    constructor(el) {
+      this.el = el
+      this.chars = '!<>-\\/[]{}—=+*^?#_'
+    //   this.chars = '011101011110'
+      this.update = this.update.bind(this)
+    }
+    setText(newText) {
+      const oldText = this.el.innerText
+      const length = Math.max(oldText.length, newText.length)
+      const promise = new Promise((resolve) => this.resolve = resolve)
+      this.queue = []
+      for (let i = 0; i < length; i++) {
+        const from = oldText[i] || ''
+        const to = newText[i] || ''
+        const start = Math.floor(Math.random() * 40)
+        const end = start + Math.floor(Math.random() * 40)
+        this.queue.push({ from, to, start, end })
+      }
+      cancelAnimationFrame(this.frameRequest)
+      this.frame = 0
+      this.update()
+      return promise
+    }
+    update() {
+      let output = ''
+      let complete = 0
+      for (let i = 0, n = this.queue.length; i < n; i++) {
+        let { from, to, start, end, char } = this.queue[i]
+        if (this.frame >= end) {
+          complete++
+          output += to
+        } else if (this.frame >= start) {
+          if (!char || Math.random() < 0.28) {
+            char = this.randomChar()
+            this.queue[i].char = char
+          }
+          output += `<span class="dud" style="color: #e100ff; text-shadow: 0 0 5px #e100ff; font-size: 84px">${char}</span>`;
           
-          <li><a href="#con">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="what">
-    <h2>What do I do?</h2>
-    </div>
-<div class="align1">
-    <div class="sec1">
-      <a href="#"><i class='bx bxl-sketch bx-fade-down' ></i></a>
-      <h4>WEB DESIGNER</h4>
-      <p>Elevate your online presence with my expertise in web design 
-        and development. From creating visually stunning interfaces to 
-        implementing seamless user experiences, I specialize in crafting
-        websites that captivate and engage. With a focus on innovation and 
-        client collaboration, I tailor each project to match unique brand 
-        identities.</p>
-
-    </div>
-
-<div class="align2">
-    <div class="sec2">
-      <a href="#"><i class='bx bxl-java bx-fade-down' ></i></a>
-      <h4>JAVA DEVELOPER</h4>
-      <p>As a Java Developer, I specialize in crafting robust and efficient software solutions. Proficient in Java programming, I excel in designing and implementing scalable applications. My expertise encompasses, allowing me to create high-performance systems. I am dedicated to delivering best Java-based solutions. Let's collaborate to elevate your projects with innovative and reliable software development!</p>
-
-    </div>
-</div> 
-
-<div class="sec3">
-  <a href="#"><i class='bx bxs-data bx-fade-down' ></i></a>
-  <h4>SQL DEVELOPER</h4>
-  <p>With proficiency in MySQL, I navigate the world of databases with ease. My expertise lies in crafting organized and efficient database structures, ensuring smooth data operations. From basic queries to database management, I bring simplicity to the intricate world of SQL. Let's build data solutions that are not only functional but also user-friendly!</p>
-  </div>
-</div>
- </div>
-
-<!-- END OF SERVICES SECTION -->
-
-
-
-<!--PORTFOLIO SECTION-->
-
-
-<div class="portfolio_total">
-  <div class="portfolio" id="por">
-    <div class="heading_portfolio">
-      <a href="#por" class="logo"><span>PORT</span>FOLIO</a>
-        
-      <ul class="navbar">
-          <li><a href="#">Home</a></li>
-          <li><a href="#ab" class="active">About</a></li>
-          <li><a href="#ser">Services</a></li>
-          <li><a href="#por">Portfolio</a></li>
-          
-          <li><a href="#con">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="what_port">
-    <h2>My works</h2>
-    </div>
-<div class="align11">
-    <div class="sec11">
-      <img src="images/aniweb home.png">
-    </div> 
-
-<div class="align22">
-  <div class="sec11">
-    <img src="images/aniweb popular.png">
-  </div>
-</div> 
-</div>
-
-<div class="align11">
-  <div class="sec11">
-    <img src="images/aniweb watch.png">
-  </div> 
-
-<div class="align22">
-<div class="sec11">
-  <img src="images/aniweb movies.png">
-</div>
-</div> 
-</div>
- </div>
-
-<!-- END OF PORTFOLIO SECTION -->
-
-
-
-
-<!-- CONTACT SECTION -->
-
-
-<div class="contact_total">
-<div class="contact" id="con">
-  <div class="heading_contact">
-      <a href="#con" class="logo"><span>CON</span>TACT</a>
-      <ul class="navbar">
-          <li><a href="#">Home</a></li>
-          <li><a href="#ab" class="active">About</a></li>
-          <li><a href="#ser">Services</a></li>
-          <li><a href="#por">Portfolio</a></li>
-          
-          <li><a href="#con">Contact</a></li>
-      </ul>
-  </div>
-</div>
-
-<div class="con_intro">
-  <h1>CONTACT ME</h1>
-  <p>Feel free to reach out! I'm available for collaborations, consultations, and coffee chats. Drop me a message, and let's turn your ideas into digital reality! Your thoughts matter, and I'm excited to hear from you.</p>
-</div>
-
-<div class="con_icons1">
-  <p style="font-weight: 550;"> <i class='bx bxs-edit-location'></i> &nbsp;ADDRESS</p>
-  <p>92 Valley View Avenue <br>
-      New York, NY 10032</p>
-</div>
-
-<div class="con_icons2">
-  <p style="font-weight: 550;"> <i class='bx bxs-phone-call'></i> &nbsp;CONTACT </p>
-  <p>9876543210</p>
-</div>
-
-<div class="con_icons3">
-  <p style="font-weight: 550;"> <i class='bx bxl-gmail'></i> &nbsp;MAIL</p>
-  <p>bsabhi@gmail.com</p>
-</div>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Form</title>
-</head>
-
-<body>
-  <div class="form">
-    <form onsubmit="sendForm(event)">
-      <h2>Send Message</h2>
-      <div class="inputbox">
-        <input type="text" placeholder="full name" minlength="3" maxlength="30" required>
-      </div>
-
-      <div class="inputbox">
-        <input type="text" placeholder="your mail" required>
-      </div>
-
-      <div class="inputbox">
-        <textarea placeholder="your message..." required></textarea>
-      </div>
-
-      <div class="inputbox">
-        <input type="submit" id="btnsubmit" value="Send">
-      </form>
-  </div>
-  </div>
-
-  <script>
-    function sendForm(event) {
-      const fullName = document.querySelector('input[placeholder="full name"]');
-      const email = document.querySelector('input[placeholder="your mail"]');
-      const message = document.querySelector('textarea[placeholder="your message..."]');
-
-      if (fullName.value.trim() === '' && email.value.trim() === '' && message.value.trim() === '') {
-        alert("Please fill in at least one field.");
-        event.preventDefault();
+        } else {
+          output += from
+        }
+      }
+      this.el.innerHTML = output
+      if (complete === this.queue.length) {
+        this.resolve()
       } else {
-        alert("Form submitted successfully");
-
-        event.preventDefault();
+        this.frameRequest = requestAnimationFrame(this.update)
+        this.frame++
       }
     }
-  </script>
-</body>
-
-</html>
-
-
+    randomChar() {
+      return this.chars[Math.floor(Math.random() * this.chars.length)]
+    }
+  }
+  
+  // ——————————————————————————————————————————————————
+  // Example
+  // ——————————————————————————————————————————————————
+  
+  const phrases = [
+  'ABHISHEAK',
+    'EREN YEAGAR'
+  ]
+  
+  const el = document.querySelector('.text')
+  const fx = new TextScramble(el)
+  
+  let counter = 0
+  const next = () => {
+    fx.setText(phrases[counter]).then(() => {
+      setTimeout(next, 2000)
+    })
+    counter = (counter + 1) % phrases.length
+  }
+  
+  next()
+      </script>
 </body>
 </html>
