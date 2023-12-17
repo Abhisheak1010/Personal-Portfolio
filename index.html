@@ -240,25 +240,36 @@
     
       <div class="what_port">
         <h2>My works</h2>
-        </div>
+        </div>        
         <section id="port-video-part">
-            <video id="slider" autoplay muted loop>
-              <source src="videos/nature1.mp4">
-            </video>
-            <ul class="navigation">
-              <li onclick="videoUrl('videos/nature1.mp4')"><img src="images/thumbnail1.png"></li>
-              <li onclick="videoUrl('videos/nature2.mp4')"><img src="images/thumbnail2.png"></li>
-              <li onclick="videoUrl('videos/nature3.mp4')"><img src="images/thumbnail3.png"></li>
-              <li onclick="videoUrl('videos/nature4.mp4')"><img src="images/thumbnail4.png"></li>
-              </ul>
-          </section>
-          <script>
-          function videoUrl(fun1)
-          {
-            document.getElementById("slider").src = fun1;
+          <video id="slider" autoplay muted loop>
+              <source src="videos/SR001.mp4">
+          </video>
+          <ul class="navigation">
+              <li onclick="videoUrl('videos/SR001.mp4', 1)"><img src="images/thumbnail1.png"></li>
+              <li onclick="videoUrl('videos/SR002.mp4', 2)"><img src="images/thumbnail2.png"></li>
+              <li onclick="videoUrl('videos/SR003.mp4', 3)"><img src="images/thumbnail3.png"></li>
+              <li onclick="videoUrl('videos/nature4.mp4', 4)"><img src="images/thumbnail4.png"></li>
+          </ul>
+      </section>
+      <p id="thumb-txt1">ANIME STREAMING WEBSITE</p>
+      <p id="thumb-txt2">PORTFOLIO WEBSITE</p>
+      <p id="thumb-txt3">TO-DO LIST</p>
+      <p id="thumb-txt4">DATABASE VISUALIZATION</p>
+      <script>
+          function videoUrl(videoPath, videoNumber) {
+              document.getElementById("slider").src = videoPath;
+      
+              // Hide all text elements
+              var textElements = document.querySelectorAll('[id^=video-text-]');
+              textElements.forEach(function(element) {
+                  element.style.display = 'none';
+              });
+      
+              // Show the text for the clicked video
+              document.getElementById("video-text-" + videoNumber).style.display = 'block';
           }
-        </script>
-
+      </script>
 
 
     </div>

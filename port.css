@@ -515,22 +515,26 @@ section video {
   left: 5%;
   height: 100%;
   width: 90%;
-  object-fit: cover;
-  border: 4px solid rgba(255, 0, 208, 0.106);
+  object-fit: contain;
+   border: 4px solid rgba(255, 0, 208, 0.106);
 }
+
 section .navigation {
   position: absolute;
   bottom: 40px;
-  left: 50%;
+  left: 30%;
+  width: 70%;
   transform: translateX(-50%);
   z-index: 100;
   display: flex;
+  opacity: 0.8;
   justify-content: center;
   align-items: center;
 }
 section .navigation li {
   list-style: none;
   position: relative;
+  left: 300px;
   top: 65px;
   cursor: pointer;
   margin: 0 10px;
@@ -542,7 +546,7 @@ section .navigation li {
 section .navigation li img {
   height: 100px;
   width: 200px;
-  opacity: 0.9;
+  /* opacity: 0.9; */
 }
 .navigation li {
   transition: transform 0.3s ease-in-out;
@@ -550,6 +554,43 @@ section .navigation li img {
 
 .navigation li:hover {
   transform: scale(1.1);
+}
+
+#thumb-txt1{
+  position: relative;
+  font-size: 13px;
+  font-weight: bolder;
+  text-decoration: solid;
+  z-index: 899;
+  top: -35px;
+  left: 270px;
+}
+#thumb-txt2{
+  position: relative;
+  font-size: 13px;
+  font-weight: bolder;
+  text-decoration: solid;
+  z-index: 899;
+  top: -52px;
+  left: 530px;
+}
+#thumb-txt3{
+  position: relative;
+  font-size: 13px;
+  font-weight: bolder;
+  text-decoration: solid;
+  z-index: 899;
+  top: -71px;
+  left: 780px;
+}
+#thumb-txt4{
+  position: relative;
+  font-size: 13px;
+  font-weight: bolder;
+  text-decoration: solid;
+  z-index: 899;
+  top: -89px;
+  left: 950px;
 }
 /* END OF PORTFOLIO SECTION */
 
