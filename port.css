@@ -31,6 +31,30 @@ body {
   animation: pulse 1s infinite;
 }
 
+#custom-pointer::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @keyframes pulse {
   0% {
     box-shadow: 0 0 5px var(--main-color);
@@ -186,7 +210,7 @@ section {
   justify-content: center;
   height: 32px;
   width: 32px;
-  filter: brightness(900%);
+  filter: brightness(1000%);
   color: rgb(255, 0, 217);
   background: linear-gradient(130.08 deg, #383528, #191919 100%);
   box-shadow: 0px 10px 20px #00000070;
@@ -319,7 +343,6 @@ section {
     transform: translateX(-10px);
   }
 }
-
 
 /*-ABOUT SECTION-*/
 .about {
@@ -516,7 +539,7 @@ section video {
   height: 100%;
   width: 90%;
   object-fit: contain;
-   border: 4px solid rgba(255, 0, 208, 0.106);
+  border: 4px solid rgba(255, 0, 208, 0.106);
 }
 
 section .navigation {
@@ -556,7 +579,7 @@ section .navigation li img {
   transform: scale(1.1);
 }
 
-#thumb-txt1{
+#thumb-txt1 {
   position: relative;
   font-size: 13px;
   font-weight: bolder;
@@ -565,7 +588,7 @@ section .navigation li img {
   top: -35px;
   left: 270px;
 }
-#thumb-txt2{
+#thumb-txt2 {
   position: relative;
   font-size: 13px;
   font-weight: bolder;
@@ -574,7 +597,7 @@ section .navigation li img {
   top: -52px;
   left: 530px;
 }
-#thumb-txt3{
+#thumb-txt3 {
   position: relative;
   font-size: 13px;
   font-weight: bolder;
@@ -583,7 +606,7 @@ section .navigation li img {
   top: -71px;
   left: 780px;
 }
-#thumb-txt4{
+#thumb-txt4 {
   position: relative;
   font-size: 13px;
   font-weight: bolder;
@@ -592,6 +615,64 @@ section .navigation li img {
   top: -89px;
   left: 950px;
 }
+
+#visit-site {
+  padding: 20px;
+  left: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.visit-site-inner1 {
+  position: relative;
+  top: -45px;
+  margin-right: 60px;
+}
+
+.visit-site-inner1 a {
+  position: relative;
+  margin-left: -500px;
+  top: 110px;
+  font-size: 30px;
+}
+.visit-site-inner2 {
+  position: relative;
+  top: -45px;
+  left: 10%;
+}
+
+.visit-site-inner2 a {
+  position: relative;
+  margin-left: -500px;
+  top: 110px;
+  font-size: 30px;
+}
+
+.visit-site-inner1-1 {
+  position: relative;
+  top: 100px;
+  left: 405px;
+  font-size: 30px;
+}
+
+.visit-site-inner1-1 a {
+  position: relative;
+  left: -215px;
+}
+
+.visit-site-inner2-2 {
+  position: relative;
+  top: 65px;
+  left: 405px;
+  font-size: 30px;
+}
+
+.visit-site-inner2-2 a {
+  position: relative;
+  left: 365px;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
 /* END OF PORTFOLIO SECTION */
 
 /* CONTACT SECTION */
