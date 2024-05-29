@@ -76,7 +76,7 @@ class TextScramble {
 document.addEventListener('DOMContentLoaded', (event) => {
 const phrases = [
 'ABHISHEAK',
-  'EREN YEAGAR'
+  'DEVELOPER'
 ]
 
 const el = document.querySelector('.text')
